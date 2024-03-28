@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+hr{
+    height: 2px;
+    color: grey;
+    background-color: rgb(61, 60, 60);
+    margin: 0;
+}
+.first{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.833), rgba(0, 0, 0, 0.515)), url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_small.jpg"), linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 9)) ;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons{
+    margin-top: 25px !important;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+.buttons #language {
+    font-size: 20px;
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+.signin{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: red;
+}
+.topBut{
+    color: white;
+    height: 38px;
+    border-radius: 5px;
+}
+
+span{
+    margin: 20px 0 0 150px;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.center{
+    height: 90vh;
+    /* display: flex; */
+    position: relative;
+    top: 140px;
+    text-align: center;
+    justify-content: center;
+}
+.center h{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.center h2{
+    font-size: 30px;
+}
+.center h3{
+    font-size: 20px;
+}
+
+#email{
+    min-width: 400px;
+    background-color: rgba(0, 0, 0, 0.515);
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 15px;
+    color: aliceblue;
+}
+.emailSubmit{
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+}
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+
+ /* second section */
+.second{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    margin: auto 50px;
+}
+.text h{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.design {
+    width: 60vw;
+    padding: 100px 0 0 86px;
+    position: relative;
+}
+
+.video-container {
+    overflow: hidden;
+}
+
+.video {
+    width: 75%;
+    height: auto;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43vw;
+    height: 100%;
+    z-index: 1;
+}
+
+.download{
+    position: absolute;
+    display: flex;
+    left:150px;
+    top: 400px;
+    height: 100px;
+    width: 360px;
+    color: aliceblue;
+    z-index: 5;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.download img{
+    padding: 10px 0 0 15px;
+    height: 5rem;
+}
+
+.download .text {
+    color: white;
+}
+
+.download .text h5{
+    margin-top: -8px;
+    color: blue;
+}
+
+.download i{
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.third .video{
+    margin-top: 0;
+    height: 230px !important;
+    width: 500px !important;
+}
+
+.fourth {
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.2rem;
+    height: 140vh;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin: 0 10%;
+    padding: 20px 0;
+    background-color: rgb(60, 58, 58);
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.answer {
+    margin: 0 10%;
+    padding: 20px 0;
+    background-color: rgb(60, 58, 58);
+    display: none;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+/* footer section  */
+.footer{
+    background-color: black;
+    height: max-content;
+    padding: 50px 200px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+}
+
+.link a{
+    margin-bottom: 10px;
+    color: rgb(164, 165, 166);
+}
